@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectHankey.ItemManager
+namespace ProjectHankey.ItemData
 {
 	class PassiveSkill : Skill
 	{

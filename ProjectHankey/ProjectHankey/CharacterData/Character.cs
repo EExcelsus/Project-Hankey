@@ -59,11 +59,11 @@ namespace ProjectHankey.CharacterData
 			return 0;
 		}
 
-		protected Weapon m_weapon;
-		protected SubWeapon m_subWeapon;
-		protected Armor m_armor;
-		protected Skill[] m_skill;
-		protected Consumable m_Consumable;
+		protected ItemData.Weapon m_weapon;
+		protected ItemData.SubWeapon m_subWeapon;
+		protected ItemData.Armor m_armor;
+		protected ItemData.Skill[] m_skill;
+		protected ItemData.Consumable m_Consumable;
 
 		protected int[] m_currentPosition;
 
