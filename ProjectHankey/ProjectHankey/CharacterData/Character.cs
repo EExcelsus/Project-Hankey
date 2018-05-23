@@ -12,24 +12,24 @@ namespace ProjectHankey.CharacterData
 		public enum ClassType
 		{
 			//직업 대분류
-			WarriorClass = 0x000,
-			ArcherClass = 0x100,
-			MageClass = 0x200,
-			PriestClass = 0x400,
-			RogueClass = 0x800,
+			WarriorClass = 0x0100,
+			ArcherClass = 0x0200,
+			MageClass = 0x0400,
+			PriestClass = 0x0800,
+			RogueClass = 0x1000,
 
-			//직업 상세분류, 첫 자리수는 대분류의 것을 사용하도록 함
-			Warrior = 0x001
+			//직업 상세분류, 처음 두 자리수는 대분류의 것을 사용하도록 함
+			Warrior = 0x0101
 		};
 
 		[Flags]
 		public enum Status
 		{
 			//현재 상태
-			Alive = 0x000,
-			Injured = 0x100,
-			HeavyInjured = 0x200,
-			Dead = 0x400,
+			Alive = 0x100,
+			Injured = 0x200,
+			HeavyInjured = 0x400,
+			Dead = 0x800,
 
 			//CC기 상태, 첫째 자릿수 신경안써도 됨
 			Stunned = 0x1
@@ -59,9 +59,9 @@ namespace ProjectHankey.CharacterData
 			return 0;
 		}
 
-		protected ItemData.Weapon m_weapon;
-		protected ItemData.SubWeapon m_subWeapon;
-		protected ItemData.Armor m_armor;
+		protected ItemData.Equipment m_weapon;
+		protected ItemData.Equipment m_subWeapon;
+		protected ItemData.Equipment m_armor;
 		protected ItemData.Skill[] m_skill;
 		protected ItemData.Consumable m_Consumable;
 

@@ -45,9 +45,11 @@
     <Compile Include="CharacterData\Character.cs" />
     <Compile Include="ItemData\ActiveSkill.cs" />
     <Compile Include="ItemData\Armor.cs" />
+    <Compile Include="ItemData\Consumable.cs" />
     <Compile Include="ItemData\Equipment.cs" />
     <Compile Include="ItemData\Item.cs" />
     <Compile Include="ItemData\PassiveSkill.cs" />
+    <Compile Include="MapData\Map.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ItemData\Skill.cs" />
