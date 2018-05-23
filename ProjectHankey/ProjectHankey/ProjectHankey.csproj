@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="CharacterData\Character.cs" />
     <Compile Include="ItemData\ActiveSkill.cs" />
-    <Compile Include="ItemData\Armor.cs" />
     <Compile Include="ItemData\Consumable.cs" />
     <Compile Include="ItemData\Equipment.cs" />
     <Compile Include="ItemData\Item.cs" />
@@ -53,8 +52,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ItemData\Skill.cs" />
-    <Compile Include="ItemData\SubWeapon.cs" />
-    <Compile Include="ItemData\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
